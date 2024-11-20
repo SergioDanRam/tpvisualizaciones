@@ -4,23 +4,12 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper/modules";
 import CardCurso from "@/components/CardCurso";
-import { EffectCoverflow } from "swiper/modules";
 
 
 const CarrouselCurso = () => {
   return (
     <section className="text-textPrimary-light font-semibold">
       <Swiper
-        effect="coverflow"
-        grabCursor={true}
-        centeredSlides={true}
-        coverflowEffect={{
-          rotate: 50,
-          stretch: 0,
-          depth: 100,
-          modifier: 1,
-          slideShadows: true,
-        }}
         slidesPerView={1} // Móvil
         spaceBetween={30}
         loop={true}
@@ -39,7 +28,7 @@ const CarrouselCurso = () => {
           clickable: true,
         }}
         navigation={true}
-        modules={[Pagination, Navigation, EffectCoverflow]}
+        modules={[Pagination, Navigation]}
         className="mySwiper"
       >
         <SwiperSlide>

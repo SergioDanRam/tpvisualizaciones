@@ -4,6 +4,7 @@ import { Footer } from "@/components/Footer";
 import Header from "@/components/Header";
 import Carrusel from "../CarrouselOpinion";
 import Link from "next/link";
+import CarrouselCurso from "../CarrouselCurso";
 
 function CarritoPage() {
   return (
@@ -76,7 +77,7 @@ function CarritoPage() {
 
         {/* Seccion interes   */}
         <div className="my-12">
-          <Carrusel />
+          <CarrouselCurso />
         </div>
       </main>
       <Footer />

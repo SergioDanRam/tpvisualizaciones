@@ -543,7 +543,7 @@ function page() {
           <div>
             <p className="text-lg">
               ¿Tenes alguna duda? Visita nuestro {""}
-              <Link href="foro.html" className="text-secondary-light">
+              <Link href="/foro" className="text-secondary-light">
                 foro
               </Link>
             </p>

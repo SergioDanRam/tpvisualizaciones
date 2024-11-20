@@ -72,7 +72,7 @@ function ForoPage() {
                                 placeholder="Escribe un comentario..."
                                 className="escribir-comentario"
                             />
-                            <Link href="iniciarSesion.html">
+                            <Link href="/iniciarSesion">
                                 <button className="boton-publicar-comentario">
                                     Publicar
                                 </button>
@@ -143,7 +143,7 @@ function ForoPage() {
                                 placeholder="Escribe un comentario..."
                                 className="escribir-comentario"
                             />
-                            <Link href="iniciarSesion.html">
+                            <Link href="/iniciarSesion">
                                 <button className="boton-publicar-comentario">
                                     Publicar
                                 </button>
