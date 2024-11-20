@@ -7,12 +7,12 @@ function CursosFinalizadosPage() {
     return (
         <>
             <Header></Header>
-            <div class="mt-12 w-11/12 mx-auto">
-                <p class="text-xl font-semibold text-center">
+            <div className="mt-12 w-11/12 mx-auto">
+                <p className="text-xl font-semibold text-center">
                     Cursos Finalizados
                 </p>
-                <div class="my-10 space-y-4 flex justify-center items-center">
-                    <section class="text-textPrimary-light font-semibold grid grid-cols-2 md:grid-cols-4 gap-4 md:">
+                <div className="my-10 space-y-4 flex justify-center items-center">
+                    <section className="text-textPrimary-light font-semibold grid grid-cols-2 md:grid-cols-4 gap-4 md:">
                         <CardCursoFinished
                             name="Curso de Matematicas para cualquier
                                         nivel"

@@ -8,12 +8,12 @@ function BusquedaPage() {
     return (
         <>
             <Header />
-            <div class="my-12 w-11/12 mx-auto">
-                <p class="text-xl font-semibold text-center">Cursos</p>
-                <div class="flex justify-between lg:justify-start md:space-y-0 md:flex md:items-center md:gap-4 my-6">
-                    <div class="">
+            <div className="my-12 w-11/12 mx-auto">
+                <p className="text-xl font-semibold text-center">Cursos</p>
+                <div className="flex justify-between lg:justify-start md:space-y-0 md:flex md:items-center md:gap-4 my-6">
+                    <div className="">
                         <select
-                            class="w-44 md:w-48 rounded-xl text-black p-2  border-black border-2"
+                            className="w-44 md:w-48 rounded-xl text-black p-2  border-black border-2"
                             name=""
                             id=""
                         >
@@ -24,9 +24,9 @@ function BusquedaPage() {
                             <option value="">Mas recien</option>
                         </select>
                     </div>
-                    <div class="">
+                    <div className="">
                         <select
-                            class="w-44 md:w-48 rounded-xl text-black p-2 border-black border-2"
+                            className="w-44 md:w-48 rounded-xl text-black p-2 border-black border-2"
                             name=""
                             id=""
                         >
@@ -37,8 +37,8 @@ function BusquedaPage() {
                         </select>
                     </div>
                 </div>
-                <div class="my-10 space-y-4 flex justify-center items-center">
-                    <section class="text-textPrimary-light font-semibold grid grid-cols-2 md:flex md:flex-wrap md:justify-between gap-4 w-full md:">
+                <div className="my-10 space-y-4 flex justify-center items-center border">
+                    <section className="text-textPrimary-light font-semibold grid grid-cols-2 md:grid-cols-3 md:flex md:flex-wrap md:justify-between gap-4 w-full ">
                         <CardCursoForSearch
                             name="Desarrollo Web Completo con PHP, MySQL,
                                         Fetch"

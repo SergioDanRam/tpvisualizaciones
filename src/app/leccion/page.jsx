@@ -7,387 +7,386 @@ function LeccionPage() {
         <>
             <Header></Header>
 
-            <main class="my-12 w-11/12 mx-auto space-y-8 md:w-6/12">
-                <h1 class="font-bold text-2xl text-center">
+            <main className="my-12 w-11/12 mx-auto space-y-8 md:w-6/12">
+                <h1 className="font-bold text-2xl text-center">
                     Lección 1: HTML, CSS y Javascript
                 </h1>
-                <div class="space-y-2">
-                    <p class="text-lg font-semibold lg:text-2xl">
+                <div className="space-y-2">
+                    <p className="text-lg font-semibold lg:text-2xl">
                         Master Frontend NextJs 15 | HTML, CSS, JS, React,
                         Responsive Design
                     </p>
-                    <p class="font-semibold">
+                    <p className="font-semibold">
                         Categoria:
-                        <span class="font-normal">Programación Web</span>
+                        <span className="font-normal">Programación Web</span>
                     </p>
                 </div>
 
-                <form action="" class="space-y-8" id="form-leccion">
-                    <fieldset class="space-y-4">
+                <form className="space-y-8" id="form-leccion">
+                    <fieldset className="space-y-4">
                         <div>
-                            <legend class="mb-4" for="">
+                            <legend className="mb-4" >
                                 1. ¿En que tipo de etiqueta se usa
                                 `charset="UTF-8` en HTML?
                             </legend>
 
-                            <div>
+                            <div >
                                 <input
                                     type="radio"
                                     name="p1"
                                     value="incorrecto"
                                 />
-                                <label for="">body</label>
+                                <label > body</label>
                             </div>
-                            <div>
+                            <div >
                                 <input
                                     type="radio"
                                     name="p1"
                                     value="correcto"
                                 />
-                                <label for="">meta</label>
+                                <label > meta</label>
                             </div>
-                            <div>
+                            <div >
                                 <input
                                     type="radio"
                                     name="p1"
                                     value="incorrecto"
                                 />
-                                <label for="">html</label>
+                                <label > html</label>
                             </div>
-                            <div>
+                            <div >
                                 <input
                                     type="radio"
                                     name="p1"
                                     value="incorrecto"
                                 />
-                                <label for="">head</label>
+                                <label > head</label>
                             </div>
                         </div>
                         <div>
-                            <legend class="mb-4" for="">
+                            <legend className="mb-4" >
                                 2. ¿Qué etiqueta se utiliza para crear un enlace
                                 en HTML?
                             </legend>
 
-                            <div>
+                            <div >
                                 <input
                                     type="radio"
                                     name="p2"
                                     value="incorrecto"
                                 />
-                                <label for="">link</label>
+                                <label > link</label>
                             </div>
-                            <div>
+                            <div >
                                 <input
                                     type="radio"
                                     name="p2"
                                     value="correcto"
                                 />
-                                <label for="">a</label>
+                                <label > a</label>
                             </div>
-                            <div>
+                            <div >
                                 <input
                                     type="radio"
                                     name="p2"
                                     value="incorrecto"
                                 />
-                                <label for="">href</label>
+                                <label > href</label>
                             </div>
-                            <div>
+                            <div >
                                 <input
                                     type="radio"
                                     name="p2"
                                     value="incorrecto"
                                 />
-                                <label for="">url</label>
+                                <label > url</label>
                             </div>
                         </div>
                         <div>
-                            <legend class="mb-4" for="">
+                            <legend className="mb-4" >
                                 3. ¿Qué atributo HTML se utiliza para abrir un
                                 enlace en una nueva pestaña?
                             </legend>
 
-                            <div>
+                            <div >
                                 <input
                                     type="radio"
                                     name="p3"
                                     value="incorrecto"
                                 />
-                                <label for="">href="_blank"</label>
+                                <label > href="_blank"</label>
                             </div>
-                            <div>
+                            <div >
                                 <input
                                     type="radio"
                                     name="p3"
                                     value="incorrecto"
                                 />
-                                <label for="">target="_new"</label>
+                                <label > target="_new"</label>
                             </div>
-                            <div>
+                            <div >
                                 <input
                                     type="radio"
                                     name="p3"
                                     value="correcto"
                                 />
-                                <label for="">target="_blank"</label>
+                                <label > target="_blank"</label>
                             </div>
-                            <div>
+                            <div >
                                 <input
                                     type="radio"
                                     name="p3"
                                     value="incorrecto"
                                 />
-                                <label for="">href="_new"</label>
+                                <label > href="_new"</label>
                             </div>
                         </div>
                         <div>
-                            <legend class="mb-4" for="">
+                            <legend className="mb-4" >
                                 4. ¿Cuál de las siguientes propiedades de CSS se
                                 usa para cambiar el color de fondo de un
                                 elemento?
                             </legend>
 
-                            <div>
+                            <div >
                                 <input
                                     type="radio"
                                     name="p4"
                                     value="incorrecto"
                                 />
-                                <label for="">color</label>
+                                <label > color</label>
                             </div>
-                            <div>
+                            <div >
                                 <input
                                     type="radio"
                                     name="p4"
                                     value="correcto"
                                 />
-                                <label for="">background</label>
+                                <label > background</label>
                             </div>
-                            <div>
+                            <div >
                                 <input
                                     type="radio"
                                     name="p4"
                                     value="incorrecto"
                                 />
-                                <label for="">font-color</label>
+                                <label > font-color</label>
                             </div>
-                            <div>
+                            <div >
                                 <input
                                     type="radio"
                                     name="p4"
                                     value="incorrecto"
                                 />
-                                <label for="">bgcolor</label>
+                                <label > bgcolor</label>
                             </div>
                         </div>
                         <div>
-                            <legend class="mb-4" for="">
+                            <legend className="mb-4" >
                                 5. ¿Qué propiedad CSS se usa para alinear el
                                 texto al centro?
                             </legend>
 
-                            <div>
+                            <div >
                                 <input
                                     type="radio"
                                     name="p5"
                                     value="incorrecto"
                                 />
-                                <label for="">text-style: center</label>
+                                <label > text-style: center</label>
                             </div>
-                            <div>
+                            <div >
                                 <input
                                     type="radio"
                                     name="p5"
                                     value="incorrecto"
                                 />
-                                <label for="">align-text: center</label>
+                                <label > align-text: center</label>
                             </div>
-                            <div>
+                            <div >
                                 <input
                                     type="radio"
                                     name="p5"
                                     value="correcto"
                                 />
-                                <label for="">text-align: center</label>
+                                <label > text-align: center</label>
                             </div>
-                            <div>
+                            <div >
                                 <input
                                     type="radio"
                                     name="p5"
                                     value="incorrecto"
                                 />
-                                <label for="">align: center </label>
+                                <label > align: center </label>
                             </div>
                         </div>
                         <div>
-                            <legend class="mb-4" for="">
+                            <legend className="mb-4" >
                                 6. ¿Qué propiedad CSS define el espacio dentro
                                 de un elemento?
                             </legend>
 
-                            <div>
+                            <div >
                                 <input
                                     type="radio"
                                     name="p6"
                                     value="incorrecto"
                                 />
-                                <label for="">margin</label>
+                                <label > margin</label>
                             </div>
-                            <div>
+                            <div >
                                 <input
                                     type="radio"
                                     name="p6"
                                     value="incorrecto"
                                 />
-                                <label for="">spacing</label>
+                                <label > spacing</label>
                             </div>
-                            <div>
+                            <div >
                                 <input
                                     type="radio"
                                     name="p6"
                                     value="correcto"
                                 />
-                                <label for="">padding</label>
+                                <label > padding</label>
                             </div>
-                            <div>
+                            <div >
                                 <input
                                     type="radio"
                                     name="p6"
                                     value="incorrecto"
                                 />
-                                <label for="">border</label>
+                                <label > border</label>
                             </div>
                         </div>
                         <div>
-                            <legend class="mb-4" for="">
+                            <legend className="mb-4" >
                                 7. ¿Cuál de estas opciones es una consulta de
                                 medios válida en CSS para pantallas de hasta
                                 600px de ancho?
                             </legend>
 
-                            <div>
+                            <div >
                                 <input
                                     type="radio"
                                     name="p7"
                                     value="correcto"
                                 />
-                                <label for="">
+                                <label > 
                                     @media screen and (max-width: 600px)
                                 </label>
                             </div>
-                            <div>
+                            <div >
                                 <input
                                     type="radio"
                                     name="p7"
                                     value="incorrecto"
                                 />
-                                <label for="">@media screen width 600px</label>
+                                <label > @media screen width 600px</label>
                             </div>
-                            <div>
+                            <div >
                                 <input
                                     type="radio"
                                     name="p7"
                                     value="incorrecto"
                                 />
-                                <label for="">
+                                <label > 
                                     @media (screen-width: 600px)
                                 </label>
                             </div>
-                            <div>
+                            <div >
                                 <input
                                     type="radio"
                                     name="p7"
                                     value="incorrecto"
                                 />
-                                <label for="">@media max-width: 600px</label>
+                                <label > @media max-width: 600px</label>
                             </div>
                         </div>
                         <div>
-                            <legend class="mb-4" for="">
+                            <legend className="mb-4" >
                                 8. ¿Cuál es la sintaxis correcta para declarar
                                 una función en JavaScript?
                             </legend>
 
-                            <div>
+                            <div >
                                 <input
                                     type="radio"
                                     name="p8"
                                     value="incorrecto"
                                 />
-                                <label for="">function: miFuncion() {}</label>
+                                <label > function: miFuncion() {}</label>
                             </div>
-                            <div>
+                            <div >
                                 <input
                                     type="radio"
                                     name="p8"
                                     value="correcto"
                                 />
-                                <label for="">function miFuncion() {}</label>
+                                <label > function miFuncion() {}</label>
                             </div>
-                            <div>
+                            <div >
                                 <input
                                     type="radio"
                                     name="p8"
                                     value="incorrecto"
                                 />
-                                <label for="">func miFuncion() {}</label>
+                                <label > func miFuncion() {}</label>
                             </div>
-                            <div>
+                            <div >
                                 <input
                                     type="radio"
                                     name="p8"
                                     value="incorrecto"
                                 />
-                                <label for="">miFuncion function() {}</label>
+                                <label > miFuncion function() {}</label>
                             </div>
                         </div>
                         <div>
-                            <legend class="mb-4" for="">
+                            <legend className="mb-4" >
                                 9. ¿Qué método se utiliza para escribir un
                                 mensaje en la consola en JavaScript?
                             </legend>
 
-                            <div>
+                            <div >
                                 <input
                                     type="radio"
                                     name="p9"
                                     value="correcto"
                                 />
-                                <label for="">console.log()</label>
+                                <label > console.log()</label>
                             </div>
-                            <div>
+                            <div >
                                 <input
                                     type="radio"
                                     name="p9"
                                     value="incorrecto"
                                 />
-                                <label for="">console.write()</label>
+                                <label > console.write()</label>
                             </div>
-                            <div>
+                            <div >
                                 <input
                                     type="radio"
                                     name="p9"
                                     value="incorrecto"
                                 />
-                                <label for="">log.console()</label>
+                                <label > log.console()</label>
                             </div>
-                            <div>
+                            <div >
                                 <input
                                     type="radio"
                                     name="p9"
                                     value="incorrecto"
                                 />
-                                <label for="">write.console()</label>
+                                <label > write.console()</label>
                             </div>
                         </div>
                     </fieldset>
 
-                    <div class="md:text-right">
+                    <div className="md:text-right">
                         <button
                             type="button"
-                            onclick="validarLeccion()"
-                            class="bg-secondary-light w-full md:w-auto text-xl text-white font-semibold p-2 rounded-md text-center"
+                            className="bg-secondary-light w-full md:w-auto text-xl text-white font-semibold p-2 rounded-md text-center"
                         >
                             Enviar Cuestionario
                         </button>

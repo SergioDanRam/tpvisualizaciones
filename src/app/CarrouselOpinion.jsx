@@ -3,9 +3,9 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper/modules";
-import CardCurso from "@/components/CardCurso";
+import Opinion from "@/components/Opinion";
 
-const Carrusel = () => {
+const CarrouselOpinion = () => {
     return (
         <section className="text-textPrimary-light font-semibold">
             <Swiper
@@ -16,7 +16,7 @@ const Carrusel = () => {
                         slidesPerView: 1, // Móvil
                     },
                     768: {
-                        slidesPerView: 2, // Tablet
+                        slidesPerView: 3, // Tablet
                     },
                     1024: {
                         slidesPerView: 4, // Desktop
@@ -30,43 +30,23 @@ const Carrusel = () => {
                 className="mySwiper"
             >
                 <SwiperSlide>
-                    <CardCurso
-                        name="Desarrollo Web Completo con PHP, MySQL, Fetch"
-                        price="4500"
-                        image="https://mundocursos.online/wp-content/uploads/2020/04/cursos-online-desarrollo-web.png"
-                    />
+                    <Opinion name="Hernan Dario" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <CardCurso
-                        name="Curso de Matematicas para cualquier nivel"
-                        price="4500"
-                        image="https://ele.chaco.gob.ar/pluginfile.php/403517/mod_label/intro/Matem%C3%A1tica.jpg"
-                    />
+                    <Opinion name="Gomez Daniel" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <CardCurso
-                        name="Curso de Ingles de principiante a experto"
-                        price="4500"
-                        image="https://trabajarporelmundo.org/wp-content/uploads/2017/09/mejores-cursos-de-ingles-gratuitos.jpg"
-                    />
+                    <Opinion name="Camila Ornella" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <CardCurso
-                        name="Python - se un experto en inteligencia artificial"
-                        price="4500"
-                        image="https://i.blogs.es/905760/1366_2000-1-/1366_2000.jpeg"
-                    />
+                    <Opinion name="Esteban Mecha" />
                 </SwiperSlide>
                 <SwiperSlide>
-                    <CardCurso
-                        name="Construi tu propia Huerta en casa desde cero"
-                        price="4500"
-                        image="https://nexonorte.com.ar/uploads/noticias/5/2024/05/20240502111228_curso-huerta-organica-parque-ecologico-municipal-inscripciones-nexonorte.webp"
-                    />
+                    <Opinion name="Stefi Meza" />
                 </SwiperSlide>
             </Swiper>
         </section>
     );
 };
 
-export default Carrusel;
+export default CarrouselOpinion;

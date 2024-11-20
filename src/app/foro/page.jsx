@@ -10,12 +10,12 @@ function ForoPage() {
             <div id="cuerpo-publicaciones">
                 <h1 id="foro">Foro de novedades</h1>
 
-                <article class="publicacion">
-                    <div class="publicacion-info">
-                        <h2 class="titulo-publicacion">
+                <article className="publicacion">
+                    <div className="publicacion-info">
+                        <h2 className="titulo-publicacion">
                             Nuevo curso de Python!
                         </h2>
-                        <p class="texto-publicacion">
+                        <p className="texto-publicacion">
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed do eiusmod tempor incididunt ut labore et
                             dolore magna aliqua. Ut enim ad minim veniam, quis
@@ -24,56 +24,56 @@ function ForoPage() {
                         <img
                             src="https://i.ytimg.com/vi/chPhlsHoEPo/maxresdefault.jpg"
                             alt="img-post"
-                            class="img-post"
+                            className="img-post"
                         />
-                        <button class="boton-me-gusta">
-                            <i class="fa-solid fa-heart"></i> Me gusta
+                        <button className="boton-me-gusta">
+                            <i className="fa-solid fa-heart"></i> Me gusta
                         </button>
                     </div>
-                    <div class="publicacion-comentarios">
-                        <div class="comentario">
+                    <div className="publicacion-comentarios">
+                        <div className="comentario">
                             <img
                                 src="https://toppng.com/uploads/preview/flat-faces-icons-circle-persona-icon-115628952315akhsf8ncl.png"
                                 alt="persona-comentario"
-                                class="foto-perfil-comentario"
+                                className="foto-perfil-comentario"
                             />
-                            <div class="contenido-comentario">
-                                <h3 class="usuario-comentario">Pedro Perez</h3>
-                                <p class="texto-comentario">
+                            <div className="contenido-comentario">
+                                <h3 className="usuario-comentario">Pedro Perez</h3>
+                                <p className="texto-comentario">
                                     Ut enim ad minim veniam, quis nostrud
                                     exercitation ullamco laboris nisi ut aliquip
                                     ex ea commodo consequat.
                                 </p>
                             </div>
                         </div>
-                        <div class="comentario">
+                        <div className="comentario">
                             <img
                                 src="https://toppng.com/uploads/preview/flat-faces-icons-circle-persona-icon-115628952315akhsf8ncl.png"
                                 alt="persona-comentario"
-                                class="foto-perfil-comentario"
+                                className="foto-perfil-comentario"
                             />
-                            <div class="contenido-comentario">
-                                <h3 class="usuario-comentario">
+                            <div className="contenido-comentario">
+                                <h3 className="usuario-comentario">
                                     Juan Martinez
                                 </h3>
-                                <p class="texto-comentario">
+                                <p className="texto-comentario">
                                     Excepteur sint occaecat cupidatat non
                                     proident, sunt in culpa qui officia deserunt
                                     mollit anim id est laborum
                                 </p>
                             </div>
                         </div>
-                        <Link href="#" class="ver-comentarios">
+                        <Link href="#" className="ver-comentarios">
                             Ver todos los comentarios
                         </Link>
-                        <div class="comentario">
+                        <div className="comentario">
                             <input
                                 type="text"
                                 placeholder="Escribe un comentario..."
-                                class="escribir-comentario"
+                                className="escribir-comentario"
                             />
                             <Link href="iniciarSesion.html">
-                                <button class="boton-publicar-comentario">
+                                <button className="boton-publicar-comentario">
                                     Publicar
                                 </button>
                             </Link>
@@ -81,12 +81,12 @@ function ForoPage() {
                     </div>
                 </article>
 
-                <article class="publicacion">
-                    <div class="publicacion-info">
-                        <h2 class="titulo-publicacion">
+                <article className="publicacion">
+                    <div className="publicacion-info">
+                        <h2 className="titulo-publicacion">
                             Nuevo curso de JavaScript!
                         </h2>
-                        <p class="texto-publicacion">
+                        <p className="texto-publicacion">
                             Lorem ipsum dolor sit amet, consectetur adipiscing
                             elit, sed do eiusmod tempor incididunt ut labore et
                             dolore magna aliqua. Ut enim ad minim veniam, quis
@@ -95,56 +95,56 @@ function ForoPage() {
                         <img
                             src="https://i.ytimg.com/vi/z95mZVUcJ-E/maxresdefault.jpg"
                             alt="img-post"
-                            class="img-post"
+                            className="img-post"
                         />
-                        <button class="boton-me-gusta">
-                            <i class="fa-solid fa-heart"></i> Me gusta
+                        <button className="boton-me-gusta">
+                            <i className="fa-solid fa-heart"></i> Me gusta
                         </button>
                     </div>
-                    <div class="publicacion-comentarios">
-                        <div class="comentario">
+                    <div className="publicacion-comentarios">
+                        <div className="comentario">
                             <img
                                 src="https://toppng.com/uploads/preview/flat-faces-icons-circle-persona-icon-115628952315akhsf8ncl.png"
                                 alt="persona-comentario"
-                                class="foto-perfil-comentario"
+                                className="foto-perfil-comentario"
                             />
-                            <div class="contenido-comentario">
-                                <h3 class="usuario-comentario">Pedro Perez</h3>
-                                <p class="texto-comentario">
+                            <div className="contenido-comentario">
+                                <h3 className="usuario-comentario">Pedro Perez</h3>
+                                <p className="texto-comentario">
                                     Ut enim ad minim veniam, quis nostrud
                                     exercitation ullamco laboris nisi ut aliquip
                                     ex ea commodo consequat.
                                 </p>
                             </div>
                         </div>
-                        <div class="comentario">
+                        <div className="comentario">
                             <img
                                 src="https://toppng.com/uploads/preview/flat-faces-icons-circle-persona-icon-115628952315akhsf8ncl.png"
                                 alt="persona-comentario"
-                                class="foto-perfil-comentario"
+                                className="foto-perfil-comentario"
                             />
-                            <div class="contenido-comentario">
-                                <h3 class="usuario-comentario">
+                            <div className="contenido-comentario">
+                                <h3 className="usuario-comentario">
                                     Juan Martinez
                                 </h3>
-                                <p class="texto-comentario">
+                                <p className="texto-comentario">
                                     Excepteur sint occaecat cupidatat non
                                     proident, sunt in culpa qui officia deserunt
                                     mollit anim id est laborum
                                 </p>
                             </div>
                         </div>
-                        <a href="#" class="ver-comentarios">
+                        <a href="#" className="ver-comentarios">
                             Ver todos los comentarios
                         </a>
-                        <div class="comentario">
+                        <div className="comentario">
                             <input
                                 type="text"
                                 placeholder="Escribe un comentario..."
-                                class="escribir-comentario"
+                                className="escribir-comentario"
                             />
                             <Link href="iniciarSesion.html">
-                                <button class="boton-publicar-comentario">
+                                <button className="boton-publicar-comentario">
                                     Publicar
                                 </button>
                             </Link>
