@@ -4,12 +4,9 @@ import Header from "@/components/Header";
 import React from "react";
 import Link from "next/link";
 import { useForm } from "react-hook-form";
-import { useContext } from "react";
-import { SesionContext } from "@/context/contextSesion";
 import { useRouter } from "next/navigation";
 
 function RegistrarsePage() {
-  const { user, setUser } = useContext(SesionContext);
   const router = useRouter();
   const {
     register,
@@ -20,7 +17,6 @@ function RegistrarsePage() {
 
   const onSubmit = handleSubmit((data) => {
     console.log(data);
-    setUser(!user);
     reset();
     router.push("/");
   });

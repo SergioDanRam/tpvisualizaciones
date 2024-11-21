@@ -5,11 +5,11 @@ import "swiper/css/navigation";
 import { Pagination, Navigation } from "swiper/modules";
 import CardCurso from "@/components/CardCurso";
 
-
 const CarrouselCurso = () => {
   return (
     <section className="text-textPrimary-light font-semibold">
       <Swiper
+        className="mySwipper h-[520px] lg:h-[460px]"
         slidesPerView={1} // Móvil
         spaceBetween={30}
         loop={true}
@@ -20,6 +20,9 @@ const CarrouselCurso = () => {
           768: {
             slidesPerView: 2, // Tablet
           },
+          900: {
+            slidesPerView: 3, // Desktop
+          },
           1024: {
             slidesPerView: 4, // Desktop
           },
@@ -29,7 +32,6 @@ const CarrouselCurso = () => {
         }}
         navigation={true}
         modules={[Pagination, Navigation]}
-        className="mySwiper"
       >
         <SwiperSlide>
           <CardCurso

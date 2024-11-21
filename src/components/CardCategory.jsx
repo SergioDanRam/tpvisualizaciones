@@ -1,4 +1,4 @@
-import { CiKeyboard } from "react-icons/ci";
+import Link from "next/link";
 
 function CardCategory({ name, icon, colorIcon}) {
 
@@ -7,7 +7,7 @@ function CardCategory({ name, icon, colorIcon}) {
         <div
             className="shadow-md flex items-center bg-gray-200 :bg-gray-800 p-2 transform transition-all duration-300 hover:scale-110 cursor-pointer"
         >
-            <a href="pages/busqueda" className="w-full">
+            <Link href="/app/busqueda" className="w-full">
                 <div className="flex items-center justify-between">
 
                     <p className="font-semibold">
@@ -18,7 +18,7 @@ function CardCategory({ name, icon, colorIcon}) {
                     </div>
                 </div>
                 <p>400 cursos</p>
-            </a>
+            </Link>
         </div>
     )
 }

@@ -4,20 +4,25 @@ import { MdHome } from "react-icons/md";
 import { FaSearch } from "react-icons/fa";
 import Link from "next/link";
 import { TiThMenu } from "react-icons/ti";
-import { useContext } from "react";
-import { SesionContext } from "@/context/contextSesion";
 import { FaUser } from "react-icons/fa";
+import Image from "next/image";
+import imagen from "/src/assets/LogoCompleto.png"
 
 function Header() {
-  const { user } = useContext(SesionContext);
-
   return (
     <div>
-      <header className="bg-primary-light  p-4 flex justify-between text-white  shadow-md">
+      <header className="bg-primary-light  p-2 flex justify-between text-white  shadow-md">
         <div className="container flex justify-between items-center mx-auto lg:w-11/12">
           <div className="flex items-center md:justify-between">
             <Link href="./">
-              <MdHome />
+              <Image
+                src={imagen} // Ruta relativa o URL completa
+                alt="Descripción de la imagen"
+                width={50} // Ancho de la imagen
+                height={50} // Alto de la imagen
+                className=""
+              />
+              
             </Link>
           </div>
           <form action="" className="hidden md:flex">
@@ -37,22 +42,22 @@ function Header() {
             </button>
           </form>
           <div className="flex items-center space-x-3">
-            {!user ? (
+            {/* {!user ? (
               <div className="hidden md:flex ">
                 <a href="./iniciarSesion">Iniciar Sesión</a>
               </div>
-            ) : (
-              <>
+            ) : ( */}
+            <>
               <Link href={"/perfil"}>
-                <FaUser />
+                <FaUser className="text-2xl"/>
               </Link>
               <div className="flex items-center space-x-1">
                 <Link href="./carrito" className="flex">
-                  <FaShoppingCart />
+                  <FaShoppingCart className="text-2xl"/>
                 </Link>
               </div>
-              </>
-            )}
+            </>
+            {/* )} */}
             <TiThMenu className="md:hidden" />
           </div>
         </div>

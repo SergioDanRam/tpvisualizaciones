@@ -47,11 +47,13 @@ function CardCurso({ name, price, image }) {
     // </div>
     <div className="bg-secondary-light shadow-2xl rounded-xl p-3 w-2/3 mx-auto md:p-3 md:w-64 md:h-auto lg:w-auto lg:h-full grid grid-rows-[6fr_5fr]">
       <div className="max-h-60 min-h-60 ">
+        <Link href="/curso">
         <img
           className="rounded-lg h-full object-cover"
           src={image}
           alt="Imagen Profe"
-        />
+          />
+          </Link>
       </div>
       <div className="flex flex-col justify-between space-y-2 rounded-bl-md rounded-br-md pt-2">
         <div className="flex flex-col space-y-2">

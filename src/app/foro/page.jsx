@@ -8,7 +8,7 @@ function ForoPage() {
         <>
         <Header/>
             <div id="cuerpo-publicaciones">
-                <h1 id="foro">Foro de novedades</h1>
+                <h1 id="foro" >Foro de novedades</h1>
 
                 <article className="publicacion">
                     <div className="publicacion-info">

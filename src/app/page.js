@@ -15,12 +15,9 @@ import Header from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import Link from "next/link";
 import CarrouselCurso from "./CarrouselCurso";
-import { useContext } from "react";
-import { SesionContext } from "@/context/contextSesion";
 
 export default function App() {
-  const { user } = useContext(SesionContext);
-  console.log(user);
+
   return (
     <>
       <div className="font-monoSans bg-background-light :bg-background- text-textPrimary-light :text-textPrimary-">

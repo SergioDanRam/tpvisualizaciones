@@ -6,16 +6,8 @@ import Link from "next/link";
 import { FaPen } from "react-icons/fa";
 import Stars from "@/components/Stars";
 import { FaUser } from "react-icons/fa";
-import { useContext } from "react";
-import { SesionContext } from "@/context/contextSesion";
 
 function PerfilPage() {
-  const { user, setUser } = useContext(SesionContext);
-
-  function cerrarSesion() {
-    setUser(!user);
-  }
-
   return (
     <>
       <Header></Header>
@@ -46,7 +38,7 @@ function PerfilPage() {
 
         <section className="space-y-2">
           <h2 className="font-semibold text-2xl">Mis Cursos</h2>
-          <section className="text-textPrimary-dark dark:text-textPrimary-light font-semibold grid grid-cols-2 md:grid-cols-4 gap-2 md:">
+          <section className="texttext-textPrimary-light font-semibold grid grid-cols-2 md:flex md:flex-wrap md:justify-between gap-2 md:">
             <div className="max-w-52 bg-accent-light p-3 rounded-lg grid grid-rows-2 h-full space-y-2">
               <div className="row-start-1">
                 <Link href="/contenidoCurso">
@@ -145,7 +137,7 @@ function PerfilPage() {
               <div className="row-start-2 flex flex-col justify-between space-y-4">
                 <div className="flex flex-col space-y-2">
                   <Link href="/contenidoCurso">
-                    <p className="text-sm">Python sin fronteras</p>
+                    <p className="text-sm">Python sin fronteras todos los niveles</p>
                   </Link>
                   <Stars />
                   <p className="font-normal">Prof. Emiliano Guizo</p>
@@ -233,7 +225,6 @@ function PerfilPage() {
           <Link
             href="/"
             className="bg-secondary-light w-full md:w-auto text-xl text-white dark:text-textPrimary-light font-semibold p-2 rounded-md text-center"
-            onClick={() => cerrarSesion()}
           >
             Cerrar Sesión
           </Link>
