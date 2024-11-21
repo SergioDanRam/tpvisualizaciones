@@ -9,7 +9,7 @@ import { FaHeartbeat } from "react-icons/fa";
 import { IoColorPalette } from "react-icons/io5";
 import { FaChalkboardTeacher } from "react-icons/fa";
 import { MdScience } from "react-icons/md";
-import CardCategory from "@/components/CArdCategory";
+import CardCategory from "@/components/CardCategory";
 import CardTeacher from "@/components/CardTeacher";
 import Header from "@/components/Header";
 import { Footer } from "@/components/Footer";
