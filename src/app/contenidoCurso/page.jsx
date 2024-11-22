@@ -504,7 +504,7 @@ function page() {
                         Consulta de los alumnos
                     </h2>
 
-                    <div className="text-black bg-opacity-25 rounded-2xl p-4 flex justify-center space-x-2 md:justify-start">
+                    <div className="text-black bg-gray-200 bg-opacity-25 rounded-2xl p-4 flex justify-center space-x-2 md:justify-start">
                         <div className="text-8xl text-white">
                             <FaUser />{" "}
                         </div>
@@ -540,7 +540,7 @@ function page() {
                             </div>
                         </div>
                     </div>
-                    <div className="text-black  bg-opacity-25 rounded-2xl p-4 flex justify-center space-x-2">
+                    <div className="text-black bg-gray-200  bg-opacity-25 rounded-2xl p-4 flex justify-center space-x-2">
                         <div className="text-8xl text-white">
                             <FaUser />{" "}
                         </div>
