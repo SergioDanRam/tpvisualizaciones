@@ -37,7 +37,7 @@ const CarrouselCurso = () => {
           <CardCurso
             name="Desarrollo Web Completo con PHP"
             price="4500"
-            image="https://mundocursos.online/wp-content/uploads/2020/04/cursos-online-desarrollo-web.png"
+            image="https://www.quois.com/wp-content/uploads/2021/07/Las-fases-del-desarrollo-de-una-web.jpg"
           />
         </SwiperSlide>
         <SwiperSlide>

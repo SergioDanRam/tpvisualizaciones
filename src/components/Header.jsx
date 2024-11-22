@@ -30,7 +30,7 @@ function Header() {
               <input
                 type="text"
                 placeholder="Ej. Diseño, Ingles, Desarrollo Profesional,etc"
-                className="pl-10 border rounded-md lg:w-[500px] text-black"
+                className="pl-10 border rounded-tl-md rounded-bl-md lg:w-[500px] text-black"
               />
 
               <FaSearch className="fas fa-search absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-500" />
