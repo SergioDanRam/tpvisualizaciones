@@ -43,7 +43,7 @@ function PerfilPage() {
               <div className="row-start-1">
                 <Link href="/contenidoCurso">
                   <img
-                    src="https://mundocursos.online/wp-content/uploads/2020/04/cursos-online-desarrollo-web.png"
+                    src="https://www.quois.com/wp-content/uploads/2021/07/Las-fases-del-desarrollo-de-una-web.jpg"
                     alt="Imagen 1"
                     className="w-full rounded-md h-full object-cover"
                   />

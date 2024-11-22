@@ -46,7 +46,7 @@ function BusquedaPage() {
                                         Fetch"
                             price="3300"
                             teacher="Hernan Gomez"
-                            image="https://mundocursos.online/wp-content/uploads/2020/04/cursos-online-desarrollo-web.png"
+                            image="https://www.quois.com/wp-content/uploads/2021/07/Las-fases-del-desarrollo-de-una-web.jpg"
                         />
                         <CardCursoForSearch
                             name="Curso de Matematicas para cualquier
@@ -78,7 +78,7 @@ function BusquedaPage() {
                                         Fetch"
                             price="3300"
                             teacher="Hernan Gomez"
-                            image="https://mundocursos.online/wp-content/uploads/2020/04/cursos-online-desarrollo-web.png"
+                            image="https://www.quois.com/wp-content/uploads/2021/07/Las-fases-del-desarrollo-de-una-web.jpg"
                         />
                         <CardCursoForSearch
                             name="Curso de Matematicas para cualquier
@@ -110,7 +110,7 @@ function BusquedaPage() {
                                         Fetch"
                             price="3300"
                             teacher="Hernan Gomez"
-                            image="https://mundocursos.online/wp-content/uploads/2020/04/cursos-online-desarrollo-web.png"
+                            image="https://www.quois.com/wp-content/uploads/2021/07/Las-fases-del-desarrollo-de-una-web.jpg"
                         />
                         <CardCursoForSearch
                             name="Curso de Matematicas para cualquier
@@ -142,7 +142,7 @@ function BusquedaPage() {
                                         Fetch"
                             price="3300"
                             teacher="Hernan Gomez"
-                            image="https://mundocursos.online/wp-content/uploads/2020/04/cursos-online-desarrollo-web.png"
+                            image="https://www.quois.com/wp-content/uploads/2021/07/Las-fases-del-desarrollo-de-una-web.jpg"
                         />
                         <CardCursoForSearch
                             name="Curso de Matematicas para cualquier
