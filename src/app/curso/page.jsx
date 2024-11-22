@@ -17,7 +17,7 @@ function CursoPage() {
         <section className="relative mt-24 mb-8 flex flex-col bg-accent-light text-textPrimary-dark p-4 rounded-lg space-y-4 md:flex-row-reverse lg:grid lg:grid-cols-2 lg:scale-x-[-1]">
           <div className="md:w-7/12 lg:w-10/12 ">
             <img
-              src="https://www.quois.com/wp-content/uploads/2021/07/Las-fases-del-desarrollo-de-una-web.jpg"
+              src="https://impulso06.com/wp-content/uploads/2023/07/El-desarrollo-web-una-profesion-en-auge-en-la-era-digital.png"
               alt="Imagen 1"
               className="rounded-md object-cover lg:w-full"
             />

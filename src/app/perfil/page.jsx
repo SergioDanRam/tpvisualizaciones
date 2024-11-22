@@ -43,7 +43,7 @@ function PerfilPage() {
               <div className="row-start-1">
                 <Link href="/contenidoCurso">
                   <img
-                    src="https://www.quois.com/wp-content/uploads/2021/07/Las-fases-del-desarrollo-de-una-web.jpg"
+                    src="https://impulso06.com/wp-content/uploads/2023/07/El-desarrollo-web-una-profesion-en-auge-en-la-era-digital.png"
                     alt="Imagen 1"
                     className="w-full rounded-md h-full object-cover"
                   />

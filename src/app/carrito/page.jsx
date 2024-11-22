@@ -26,7 +26,7 @@ function CarritoPage() {
                                 name="Desarrollo Web Completo con PHP,
               MySQL, Fetch"
                                 price="4500"
-                                image="https://mundocursos.online/wp-content/uploads/2020/04/cursos-online-desarrollo-web.png"
+                                image="https://impulso06.com/wp-content/uploads/2023/07/El-desarrollo-web-una-profesion-en-auge-en-la-era-digital.png"
                                 hours="14"
                                 classCant="132"
                             />
