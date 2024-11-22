@@ -18,7 +18,7 @@ function LeccionDesaprobadaPage() {
                         Responsive Design
                     </p>
                     <p className="font-semibold">
-                        Categoria:{' '}
+                        Categoria:{" "}
                         <span className="font-normal">Programación Web</span>
                     </p>
                 </div>
@@ -34,10 +34,10 @@ function LeccionDesaprobadaPage() {
                             <p>Podes volver a resolver el formulario</p>
                         </div>
                         <Link
-                            href="leccion"
+                            href="/leccion"
                             className="mt-4 w-full h-12 text-xl bg-secondary-light dark:bg-accent-darktext-white font-semibold p-2 rounded-md text-center text-white flex items-center justify-center space-x-2"
                         >
-                            <FaArrowLeft /> <p>Volver al formulario</p>
+                            <FaArrowLeft /> <p>Rehacer Lección</p>
                         </Link>
                     </div>
                 </div>

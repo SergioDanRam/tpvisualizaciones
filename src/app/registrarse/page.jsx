@@ -138,7 +138,7 @@ function RegistrarsePage() {
               </Link>
             </div>
             <div className="text-sm flex flex-col space-y-1">
-              <p>¿Es tu primera vez en nombreDeEmpresa?</p>
+              <p>¿Ya tienes una cuenta en Eduteca?</p>
               <Link
                 href="/iniciarSesion"
                 className="hover:text-primary-light dark:hover:text-textPrimary-dark"

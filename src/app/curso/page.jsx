@@ -50,7 +50,7 @@ function CursoPage() {
           </div>
           <div className="flex justify-center lg:scale-x-[-1] lg:m-10">
             <Link
-              href="#"
+              href="/carrito"
               className="absolute right-4 -bottom-6 bg-secondary-light text-xl text-white w-4/6 font-semibold p-2 rounded-md text-center lg:text-2xl"
             >
               Agregar al carrito
@@ -89,6 +89,7 @@ function CursoPage() {
           {/* Contenedor del carrusel  */}
 
           <section className="text-textPrimary-light font-semibold ">
+
             <CarrouselCurso />
           </section>
         </div>

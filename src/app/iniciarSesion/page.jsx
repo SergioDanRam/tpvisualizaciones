@@ -79,7 +79,7 @@ function IniciarSesionPage() {
               </Link>
             </div>
             <div className="text-sm flex flex-col space-y-1">
-              <p>¿Es tu primera vez en nombreDeEmpresa?</p>
+              <p>¿Es tu primera vez en Eduteca?</p>
               <Link
                 href="/registrarse"
                 className="hover:text-primary-light dark:hover:text-textPrimary-dark"

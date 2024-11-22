@@ -8,36 +8,38 @@ function BusquedaPage() {
     return (
         <>
             <Header />
-            <div className="my-12 w-11/12 mx-auto">
-                <p className="text-xl font-semibold text-center">Cursos</p>
-                <div className="flex justify-between lg:justify-start md:space-y-0 md:flex md:items-center md:gap-4 my-6">
-                    <div className="">
-                        <select
-                            className="w-44 md:w-48 rounded-xl text-black p-2  border-black border-2"
-                            name=""
-                            id=""
-                        >
-                            <option value="">-- Ordenar por --</option>
-                            <option value="">Mas relevantes</option>
-                            <option value="">Mejor Valorados</option>
-                            <option value="">Los más comentados</option>
-                            <option value="">Mas recien</option>
-                        </select>
-                    </div>
-                    <div className="">
-                        <select
-                            className="w-44 md:w-48 rounded-xl text-black p-2 border-black border-2"
-                            name=""
-                            id=""
-                        >
-                            <option value="">-- Filtrar por --</option>
-                            <option value="">Menor precio</option>
-                            <option value="">Mayor precio</option>
-                            <option value="">Gratis</option>
-                        </select>
+            <div className=" mx-auto">
+                <div className="shadow-xl bg-gray-200 pt-8 pb-4">
+                    <p className="text-3xl font-semibold text-center">Cursos</p>
+                    <div className="w-11/12 mx-auto flex justify-between lg:justify-start md:space-y-0 md:flex md:items-center md:gap-4 my-6">
+                        <div className="">
+                            <select
+                                className="w-44 md:w-48 rounded-xl text-black p-2  border-gray-400 border-2"
+                                name=""
+                                id=""
+                            >
+                                <option value="">-- Ordenar por --</option>
+                                <option value="">Mas relevantes</option>
+                                <option value="">Mejor Valorados</option>
+                                <option value="">Los más comentados</option>
+                                <option value="">Mas recien</option>
+                            </select>
+                        </div>
+                        <div className="">
+                            <select
+                                className="w-44 md:w-48 rounded-xl text-black p-2 border-gray-400 border-2"
+                                name=""
+                                id=""
+                            >
+                                <option value="">-- Filtrar por --</option>
+                                <option value="">Menor precio</option>
+                                <option value="">Mayor precio</option>
+                                <option value="">Gratis</option>
+                            </select>
+                        </div>
                     </div>
                 </div>
-                <div className="my-10 space-y-4 flex justify-center items-center border">
+                <div className="w-11/12 mx-auto my-10 space-y-4 flex justify-center items-center">
                     <section className="text-textPrimary-light font-semibold grid grid-cols-2 md:grid-cols-3 md:flex md:flex-wrap md:justify-between gap-4 w-full ">
                         <CardCursoForSearch
                             name="Desarrollo Web Completo con PHP, MySQL,
@@ -166,6 +168,13 @@ function BusquedaPage() {
                             price="1600"
                             teacher="Sonia Caza"
                             image="https://nexonorte.com.ar/uploads/noticias/5/2024/05/20240502111228_curso-huerta-organica-parque-ecologico-municipal-inscripciones-nexonorte.webp"
+                        />
+                        <CardCursoForSearch
+                            name="Curso de Matematicas para cualquier
+                                        nivel"
+                            price="4200"
+                            teacher="Emiliano Guizo"
+                            image="https://ele.chaco.gob.ar/pluginfile.php/403517/mod_label/intro/Matem%C3%A1tica.jpg"
                         />
                     </section>
                 </div>
